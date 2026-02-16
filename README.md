@@ -47,9 +47,9 @@ pip install tensorflow numpy matplotlib pillow
 ## ✨ Пример использования
 
 ### Для одного изображения:
-predict_wildfire("test_images/test_image1.jpg")
+predict_wildfire("test_images/test_image2.jpg")
 
-Обнаружен пожар! Вероятность: 87%
+Пожара нет. Вероятность: 2%
 
 ### Для папки с изображениями:
 predict_folder("test_images")
